@@ -28,30 +28,9 @@ def recommend(movie):
 
     return recommended_movie_names,recommended_movie_posters
 
-# import streamlit.components.v1 as components
-
-# imageCarouselComponent = components.declare_component("image-carousel-component")
 
 
-# imageUrls = [
-#     fetch_poster(1632),
-#     fetch_poster(299536),
-#     fetch_poster(17455),
-#     fetch_poster(2830),
-#     fetch_poster(429422),
-#     fetch_poster(9722),
-#     fetch_poster(13972),
-#     fetch_poster(240),
-#     fetch_poster(155),
-#     fetch_poster(598),
-#     fetch_poster(914),
-#     fetch_poster(255709),
-#     fetch_poster(572154)
-   
-#     ]
 
-
-imageCarouselComponent(imageUrls=st.image[914], height=200)
 
 
 st.header('Movie Recommender System')
